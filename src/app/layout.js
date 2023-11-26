@@ -3,8 +3,8 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 
 import MouseGradient from '@/components/ui/mouse-gradient';
 
-import '@fortawesome/fontawesome-svg-core/styles.css';
 import './globals.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 config.autoAddCss = false;
 
