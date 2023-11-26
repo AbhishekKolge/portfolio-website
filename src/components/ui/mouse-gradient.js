@@ -4,14 +4,14 @@ import { useState, useEffect } from 'react';
 const MouseGradient = () => {
   const [gradientStyle, setGradientStyle] = useState({
     background:
-      'radial-gradient(600px at 703px 502px, rgba(29, 78, 216, 0.15), transparent 80%)',
+      'radial-gradient(600px circle at 0px 0px, rgba(29, 78, 216, 0.15), transparent 80%)',
   });
 
   useEffect(() => {
     const updateGradient = (event) => {
       const { clientX, clientY } = event;
       setGradientStyle({
-        background: `radial-gradient(600px at ${clientX}px ${clientY}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
+        background: `radial-gradient(600px circle at ${clientX}px ${clientY}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
       });
     };
 
@@ -24,7 +24,7 @@ const MouseGradient = () => {
 
   return (
     <div
-      className='pointer-events-none inset-0 z-30 transition duration-300 hidden lg:block lg:fixed'
+      className='pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute'
       style={gradientStyle}
     ></div>
   );
