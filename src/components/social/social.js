@@ -16,7 +16,7 @@ const Social = (props) => {
               className='block hover:text-slate-200'
             >
               <span className='sr-only'>{item.name}</span>
-              <FontAwesomeIcon className='h-6 w-6' icon={item.icon} />
+              <FontAwesomeIcon fontSize={24} icon={item.icon} />
             </Link>
           </li>
         );

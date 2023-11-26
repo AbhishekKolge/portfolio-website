@@ -35,8 +35,9 @@ const LinkSecondary = (props) => {
           {children}
         </span>
         <FontAwesomeIcon
-          className='ml-1 inline-block h-[12px] w-[12px] shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none'
+          className='ml-1 inline-block shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none'
           icon={faArrowRight}
+          fontSize={12}
         />
       </span>
     </Link>
@@ -60,8 +61,9 @@ const LinkTertiary = (props) => {
       <span>
         {children}
         <FontAwesomeIcon
-          className='inline-block h-[13px] w-[13px] shrink-0 transition-transform rotate-45 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px'
+          className='inline-block shrink-0 transition-transform rotate-45 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-2 translate-y-px'
           icon={faArrowUp}
+          fontSize={12}
         />
       </span>
     </Link>
@@ -77,8 +79,9 @@ const GoBackLink = (props) => {
       href={href}
     >
       <FontAwesomeIcon
-        className='mr-1 h-3 w-3 transition-transform group-hover:-translate-x-2'
+        className='mr-1 transition-transform group-hover:-translate-x-2'
         icon={faArrowLeft}
+        fontSize={12}
       />
       {children}
     </Link>
