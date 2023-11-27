@@ -1,40 +1,29 @@
 'use client';
-import { useState, useEffect, useLayoutEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState(null);
 
-  useEffect(() => {
+  const checkIntersection = () => {
     const sections = document.querySelectorAll('section');
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setActiveSection(entry.target.id);
-        }
-      },
-      { threshold: 0.5 }
-    );
-
-    sections.forEach((section) => {
-      if (section) {
-        observer.observe(section);
+    const windowHeight = window.innerHeight;
+    sections?.forEach((section) => {
+      const elementRect = section.getBoundingClientRect();
+      if (elementRect.top <= windowHeight / 1.8) {
+        setActiveSection(section.id);
       }
     });
+  };
+
+  useEffect(() => {
+    checkIntersection();
+
+    window.addEventListener('scroll', checkIntersection);
 
     return () => {
-      observer.disconnect();
+      window.removeEventListener('scroll', checkIntersection);
     };
-  }, []);
-
-  useLayoutEffect(() => {
-    const hash = window.location.hash.substring(1);
-    if (hash) {
-      setActiveSection(hash);
-    } else {
-      setActiveSection('about');
-    }
   }, []);
 
   return (
