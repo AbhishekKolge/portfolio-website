@@ -20,7 +20,7 @@ const Projects = () => {
           })}
         </ul>
         <div className='mt-12'>
-          <LinkSecondary ariaLabel='View all projects' href='/archive'>
+          <LinkSecondary ariaLabel='View Full Project Archive' href='/archive'>
             View Full Project Archive
           </LinkSecondary>
         </div>

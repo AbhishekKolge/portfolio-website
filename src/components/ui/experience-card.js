@@ -28,7 +28,7 @@ const ExperienceCard = (props) => {
               bubbleUp={true}
               rel='noreferrer'
               target='_blank'
-              ariaLabel={role}
+              ariaLabel={`${role} · ${companyName}`}
             >{`${role} · ${companyName}`}</LinkTertiary>
           </div>
         </h4>
