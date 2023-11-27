@@ -7,7 +7,7 @@ import data from './data';
 
 const Projects = () => {
   return (
-    <Section id='projects'>
+    <Section ariaLabel='Projects' id='projects'>
       <SectionHeading>Projects</SectionHeading>
       <div>
         <ul className='group/list'>
@@ -20,7 +20,7 @@ const Projects = () => {
           })}
         </ul>
         <div className='mt-12'>
-          <LinkSecondary href='/archive'>
+          <LinkSecondary ariaLabel='View all projects' href='/archive'>
             View Full Project Archive
           </LinkSecondary>
         </div>

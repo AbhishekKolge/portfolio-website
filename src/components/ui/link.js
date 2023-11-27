@@ -8,13 +8,15 @@ import {
 import { twMerge } from 'tailwind-merge';
 
 const LinkPrimary = (props) => {
-  const { href, target, rel, children } = props;
+  const { href, target, rel, children, className } = props;
   return (
     <Link
       href={href}
       target={target}
       rel={rel}
-      className='font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300'
+      className={twMerge(
+        `font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 ${className}`
+      )}
     >
       {children}
     </Link>
@@ -22,9 +24,10 @@ const LinkPrimary = (props) => {
 };
 
 const LinkSecondary = (props) => {
-  const { href, children, target, rel } = props;
+  const { href, children, target, rel, ariaLabel } = props;
   return (
     <Link
+      aria-label={ariaLabel}
       href={href}
       target={target}
       rel={rel}
@@ -45,7 +48,7 @@ const LinkSecondary = (props) => {
 };
 
 const LinkTertiary = (props) => {
-  const { href, children, className, bubbleUp, target, rel } = props;
+  const { href, children, className, bubbleUp, target, rel, ariaLabel } = props;
   return (
     <Link
       className={twMerge(
@@ -54,6 +57,7 @@ const LinkTertiary = (props) => {
       href={href}
       target={target}
       rel={rel}
+      aria-label={ariaLabel}
     >
       {bubbleUp && (
         <span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block'></span>

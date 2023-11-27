@@ -6,7 +6,7 @@ import data from './data';
 
 const Blogs = () => {
   return (
-    <Section id='blogs'>
+    <Section ariaLabel='Blogs' id='blogs'>
       <SectionHeading>Blogs</SectionHeading>
       <div>
         <ul className='group/list'>

@@ -7,7 +7,7 @@ import data from './data';
 
 const Experience = () => {
   return (
-    <Section id='experience'>
+    <Section ariaLabel='Work experience' id='experience'>
       <SectionHeading>Experience</SectionHeading>
       <div>
         <ol className='group/list'>
@@ -20,7 +20,11 @@ const Experience = () => {
           })}
         </ol>
         <div className='mt-12'>
-          <LinkSecondary target='_blank' href='/resume.pdf'>
+          <LinkSecondary
+            ariaLabel='View full resume'
+            target='_blank'
+            href='/resume.pdf'
+          >
             View Full Résumé
           </LinkSecondary>
         </div>

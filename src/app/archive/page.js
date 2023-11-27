@@ -49,7 +49,11 @@ const Archive = () => {
                     <div>
                       <div className='block sm:hidden'>
                         {!!item.links?.length ? (
-                          <LinkTertiary target='_blank' href={item.links[0]}>
+                          <LinkTertiary
+                            rel='noreferrer'
+                            target='_blank'
+                            href={item.links[0]}
+                          >
                             {item.name}
                           </LinkTertiary>
                         ) : (
@@ -84,6 +88,7 @@ const Archive = () => {
                               <LinkTertiary
                                 target='_blank'
                                 href={link}
+                                rel='noreferrer'
                                 className='text-slate-400 text-sm'
                               >
                                 {link}

@@ -6,7 +6,7 @@ import data from './data';
 const Social = (props) => {
   const { className } = props;
   return (
-    <ul className={className}>
+    <ul aria-label='Social media' className={className}>
       {data.map((item) => {
         return (
           <li className='mr-5 text-xs' key={item.id}>
@@ -14,9 +14,14 @@ const Social = (props) => {
               target='_blank'
               href={item.link}
               className='block hover:text-slate-200'
+              rel='noreferrer'
             >
               <span className='sr-only'>{item.name}</span>
-              <FontAwesomeIcon fontSize={24} icon={item.icon} />
+              <FontAwesomeIcon
+                aria-hidden='true'
+                fontSize={24}
+                icon={item.icon}
+              />
             </Link>
           </li>
         );

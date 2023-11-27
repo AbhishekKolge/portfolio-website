@@ -17,7 +17,13 @@ const BlogCard = (props) => {
       <div className='z-10 col-span-6'>
         <span className='-mt-1 text-sm font-semibold leading-6'>{date}</span>
         <h3 className='-mt-1'>
-          <LinkTertiary target='_blank' href={link} bubbleUp={true}>
+          <LinkTertiary
+            target='_blank'
+            rel='noreferrer'
+            href={link}
+            bubbleUp={true}
+            ariaLabel={title}
+          >
             {title}
           </LinkTertiary>
         </h3>

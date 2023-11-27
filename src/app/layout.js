@@ -15,6 +15,12 @@ export const metadata = {
   description:
     'Abhishek Kolge specialize in end-to-end development and crafting robust solutions for both web and mobile applications.',
   metadataBase: new URL('https://abhishekkolge.vercel.app'),
+  openGraph: {
+    siteName: 'Abhishek Kolge',
+    url: new URL('https://abhishekkolge.vercel.app'),
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 const RootLayout = ({ children }) => {

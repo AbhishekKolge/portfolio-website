@@ -4,7 +4,7 @@ import Section from '../ui/section';
 
 const About = () => {
   return (
-    <Section id='about'>
+    <Section ariaLabel='About me' id='about'>
       <SectionHeading>About</SectionHeading>
       <div>
         <p className='mb-4'>

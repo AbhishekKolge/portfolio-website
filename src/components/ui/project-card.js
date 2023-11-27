@@ -11,11 +11,20 @@ const ProjectCard = (props) => {
       <div className='z-10 sm:order-2 sm:col-span-6'>
         <h3>
           {link ? (
-            <LinkTertiary bubbleUp={true} href={link}>
+            <LinkTertiary
+              rel='noreferrer'
+              target='_blank'
+              bubbleUp={true}
+              href={link}
+              ariaLabel={title}
+            >
               {title}
             </LinkTertiary>
           ) : (
-            <span className='font-medium leading-tight text-slate-200 text-base'>
+            <span
+              aria-label={title}
+              className='font-medium leading-tight text-slate-200 text-base'
+            >
               {title}
             </span>
           )}
