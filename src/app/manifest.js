@@ -3,7 +3,7 @@ const manifest = () => {
     name: 'Abhishek Kolge',
     short_name: 'Abhishek Kolge',
     description:
-      'Abhishek Kolge specialize in end-to-end development and crafting robust solutions for both web and mobile applications.',
+      'Abhishek Kolge specializes in end-to-end development and crafting robust solutions for both web and mobile applications.',
     start_url: '/',
     display: 'standalone',
     background_color: '#111e41',

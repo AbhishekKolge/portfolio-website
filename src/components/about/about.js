@@ -39,9 +39,8 @@ const About = () => {
           </LinkPrimary>
           . In the free time I&lsquo;ve build few of my side project to learn
           new skills and practice existing skills. I am currently dedicating my
-          efforts to mastering Data Structures and Algorithms in order to
-          successfully navigate through the screening process of major tech
-          companies.
+          efforts to mastering Data Structures and Algorithms in order to become
+          a better developer.
         </p>
         <p className='mb-4'>
           When I&lsquo;m not at the laptop, I&lsquo;m usually sleeping or binge
