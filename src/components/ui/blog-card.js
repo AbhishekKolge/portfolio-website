@@ -11,7 +11,7 @@ const BlogCard = (props) => {
         src={img}
         width={200}
         height={48}
-        className='z-10 col-span-2 rounded border-2 aspect-[4/3] object-contain border-slate-200/10 transition group-hover:border-slate-200/30 sm:col-span-2'
+        className='opacity-70 z-10 col-span-2 rounded border-2 aspect-[4/2] object-cover border-slate-200/10 transition group-hover:opacity-100 group-hover:border-slate-200/30 sm:col-span-2'
         alt='test'
       />
       <div className='z-10 col-span-6'>
