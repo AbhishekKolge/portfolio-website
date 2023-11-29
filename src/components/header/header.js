@@ -15,7 +15,7 @@ const Header = () => {
           Experienced Full-Stack Developer
         </h2>
         <p className='mt-4 max-w-xs leading-normal'>
-          I specializes in end-to-end development & crafting robust solutions
+          I specialize in end-to-end development & crafting robust solutions
           for both web and mobile applications.
         </p>
         <Navigation />
