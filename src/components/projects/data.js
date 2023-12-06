@@ -24,7 +24,7 @@ const data = [
   {
     id: 2,
     title: 'Mahindra Lifespaces',
-    link: '',
+    link: 'https://play.google.com/store/apps/details?id=com.mlife.app&pcampaignid=web_share',
     description:
       'Mahindra Lifespaces mobile app streamlined the process of onboarding and managing users who bought property from Mahindra. With the help of the application, customers can do documentation and payment processes in the comfort of their homes.',
     img: mahindraLifespacesImage,
