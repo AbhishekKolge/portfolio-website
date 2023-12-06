@@ -104,7 +104,7 @@ const data = [
     name: 'Mahindra Lifespaces',
     company: 'DigitalSalt Technologies',
     tags: ['React Native', 'Redux Toolkit', 'RTK Query', 'Styled Components'],
-    links: [],
+    links: ['https://play.google.com/store/apps/details?id=com.mlife.app&pcampaignid=web_share'],
   },
   {
     id: 9,
