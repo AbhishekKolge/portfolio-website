@@ -37,10 +37,9 @@ const About = () => {
           >
             Unthread Technologies
           </LinkPrimary>
-          . In the free time I&lsquo;ve build few of my side project to learn
-          new skills and practice existing skills. I am currently dedicating my
-          efforts to mastering Data Structures and Algorithms in order to become
-          a better developer.
+          . In my free time I&lsquo;ve built a few side projects to learn
+          new skills and practice existing ones. Currently, I am dedicating my
+          efforts to gaining in-depth knowledge of the technologies I already know.
         </p>
         <p className='mb-4'>
           When I&lsquo;m not at the laptop, I&lsquo;m usually sleeping or binge
