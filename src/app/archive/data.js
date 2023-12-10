@@ -72,7 +72,7 @@ const data = [
       'Docker',
       'AWS',
     ],
-    links: ['https://hedged.in'],
+    links: ['https://hedged.in', 'https://play.google.com/store/apps/details?id=com.hedged'],
   },
   {
     id: 6,
