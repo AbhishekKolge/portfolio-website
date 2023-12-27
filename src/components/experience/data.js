@@ -27,7 +27,7 @@ const data = [
   },
   {
     id: 3,
-    role: 'Frontend Developer',
+    role: 'Frontend Developer Intern',
     companyName: 'AppOctet Technologies',
     link: 'https://www.appoctet.com/',
     duration: {
