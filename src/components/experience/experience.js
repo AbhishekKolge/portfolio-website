@@ -23,7 +23,7 @@ const Experience = () => {
           <LinkSecondary
             ariaLabel='View Full Résumé'
             target='_blank'
-            href='https://drive.google.com/file/d/1TFud_VFT13TZ9Suf5y3Bw6E7IhgwJnwH/view?usp=drive_link'
+            href='https://drive.google.com/file/d/1CeYAG5jUpONmR0ZH_PGbTp1N1QSe4J1p/view?usp=drive_link'
           >
             View Full Résumé
           </LinkSecondary>
