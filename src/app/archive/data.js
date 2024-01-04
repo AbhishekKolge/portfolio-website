@@ -2,6 +2,14 @@ const data = [
   {
     id: 1,
     year: 2023,
+    name: 'CryptoCalc',
+    company: 'Side Project',
+    tags: ['Next.js','Redux Toolkit', 'RTK Query', 'Node.js', 'Express.js', 'PostgreSQL', 'Prisma', 'Shadcn', 'Redis'],
+    links: ['https://cryptocalc-frontend.vercel.app'],
+  },
+  {
+    id: 2,
+    year: 2023,
     name: 'Unthread',
     company: 'Unthread Technologies',
     tags: [
@@ -15,7 +23,7 @@ const data = [
     links: [],
   },
   {
-    id: 2,
+    id: 3,
     year: 2023,
     name: 'Propertyloop',
     company: 'Side Project',
@@ -31,7 +39,7 @@ const data = [
     links: ['https://propertyloop.vercel.app'],
   },
   {
-    id: 3,
+    id: 4,
     year: 2023,
     name: 'LogPro',
     company: 'Side Project',
@@ -39,7 +47,7 @@ const data = [
     links: ['https://log-pro.up.railway.app'],
   },
   {
-    id: 4,
+    id: 5,
     year: 2023,
     name: 'Shoe Craze',
     company: 'Side Project',
@@ -58,7 +66,7 @@ const data = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     year: 2022,
     name: 'Hedged',
     company: 'DigitalSalt Technologies',
@@ -75,7 +83,7 @@ const data = [
     links: ['https://hedged.in', 'https://play.google.com/store/apps/details?id=com.hedged'],
   },
   {
-    id: 6,
+    id: 7,
     year: 2022,
     name: 'CSV Parser',
     company: 'Side Project',
@@ -83,7 +91,7 @@ const data = [
     links: ['https://csv-parser.up.railway.app'],
   },
   {
-    id: 7,
+    id: 8,
     year: 2022,
     name: 'AIR Green',
     company: 'DigitalSalt Technologies',
@@ -99,7 +107,7 @@ const data = [
     links: [],
   },
   {
-    id: 8,
+    id: 9,
     year: 2022,
     name: 'Mahindra Lifespaces',
     company: 'DigitalSalt Technologies',
@@ -107,7 +115,7 @@ const data = [
     links: ['https://play.google.com/store/apps/details?id=com.mlife.app&pcampaignid=web_share'],
   },
   {
-    id: 9,
+    id: 10,
     year: 2021,
     name: 'CaptainBiz',
     company: 'AppOctet Technologies',
@@ -115,7 +123,7 @@ const data = [
     links: ['https://captainbiz.com/invoice'],
   },
   {
-    id: 10,
+    id: 11,
     year: 2021,
     name: 'Storeinsta',
     company: 'AppOctet Technologies',
@@ -123,7 +131,7 @@ const data = [
     links: ['https://www.storeinsta.com'],
   },
   {
-    id: 11,
+    id: 12,
     year: 2021,
     name: 'React Notification',
     company: 'Side Project',
@@ -131,7 +139,7 @@ const data = [
     links: ['https://react-toast-notification.netlify.app'],
   },
   {
-    id: 12,
+    id: 13,
     year: 2021,
     name: 'GitHub Finder',
     company: 'Side Project',
@@ -139,7 +147,7 @@ const data = [
     links: ['https://github-finder-react-demo.netlify.app'],
   },
   {
-    id: 13,
+    id: 14,
     year: 2021,
     name: 'Starbucks Clone',
     company: 'Side Project',
@@ -147,7 +155,7 @@ const data = [
     links: ['https://starbucks-clone-web.netlify.app'],
   },
   {
-    id: 14,
+    id: 15,
     year: 2021,
     name: 'Alpha Services',
     company: 'Side Project',
@@ -155,7 +163,7 @@ const data = [
     links: ['https://alpha-customer-service.netlify.app'],
   },
   {
-    id: 15,
+    id: 16,
     year: 2021,
     name: 'SSM Turf',
     company: 'Side Project',
@@ -163,7 +171,7 @@ const data = [
     links: ['https://ssm-turf.netlify.app'],
   },
   {
-    id: 16,
+    id: 17,
     year: 2021,
     name: 'E-Commerce UI',
     company: 'Side Project',
@@ -171,7 +179,7 @@ const data = [
     links: ['https://dummy-ecommerce-ui.netlify.app'],
   },
   {
-    id: 17,
+    id: 18,
     year: 2021,
     name: 'Dummy UI',
     company: 'Side Project',
