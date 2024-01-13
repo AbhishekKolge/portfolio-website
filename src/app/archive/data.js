@@ -153,7 +153,7 @@ const data = [
     year: 2021,
     name: 'React Notification',
     company: 'Side Project',
-    tags: ['React.js', 'React Router', 'React Context API'],
+    tags: ['TypeScript', 'React.js', 'React Router', 'React Context API'],
     links: ['https://react-toast-notification.netlify.app'],
   },
   {
