@@ -77,8 +77,8 @@ const data = [
       'Bootstrap',
     ],
     links: [
-      'https://shoe-craze-admin.up.railway.app',
-      'https://shoe-craze.up.railway.app',
+      'https://shoe-craze-admin.vercel.app',
+      'https://shoe-craze-frontend.vercel.app',
     ],
   },
   {
