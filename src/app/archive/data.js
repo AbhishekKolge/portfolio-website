@@ -13,7 +13,7 @@ const data = [
     name: 'Hacker News Clone',
     company: 'Side Project',
     tags: ['TypeScript', 'Next.js', 'React Query', 'Shadcn'],
-    links: ['https://hacker-news-hybr1d.vercel.app'],
+    links: ['https://hacker-news-nextjs-clone.vercel.app'],
   },
   {
     id: 3,
