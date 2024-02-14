@@ -113,7 +113,7 @@ const data = [
     name: 'CSV Parser',
     company: 'Side Project',
     tags: ['Node.js', 'Express.js', 'PostgreSQL'],
-    links: ['https://csv-parser.up.railway.app'],
+    links: ['https://csv-parser-jzco.onrender.com'],
   },
   {
     id: 11,
