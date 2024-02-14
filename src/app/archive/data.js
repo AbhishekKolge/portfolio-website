@@ -146,7 +146,7 @@ const data = [
     name: 'CaptainBiz',
     company: 'AppOctet Technologies',
     tags: ['React.js', 'SCSS', 'Redux Toolkit'],
-    links: ['https://captainbiz.com/invoice'],
+    links: ['https://captainbiz.com'],
   },
   {
     id: 14,
