@@ -68,7 +68,7 @@ const data = [
     name: 'LogPro',
     company: 'Side Project',
     tags: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL', 'Prisma', 'MUI'],
-    links: ['https://log-pro.up.railway.app'],
+    links: ['https://log-pro.vercel.app'],
   },
   {
     id: 8,
