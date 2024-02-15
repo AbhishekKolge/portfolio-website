@@ -9,7 +9,7 @@ const data = [
       to: 'present',
     },
     description:
-      'Achieved 20% reduction in external requests for admin and user-facing applications through client-side caching and optimisation. Strengthened authentication with refresh token rotation and passport.js. Improved overall application performance by an impressive 25% through a dual strategy of client-side data caching and server-side rendering using Next.js.',
+      'Cut external requests by 20% with client-side caching. Reduced feature delivery time by 15%. Strengthened authentication with token rotation. Improved app performance by 25% with dual caching and Next.js. Created reusable component library. Implemented web sockets for real-time data.',
     tags: [],
   },
   {
@@ -22,7 +22,7 @@ const data = [
       to: 'Feb 23',
     },
     description:
-      'Collaborated with UX team for APIs and atomic design pattern. Maintained a post-implementation error rate below 3% through robust validation and error handling using Formik, Zod and Joi etc. Implemented server side caching with help of Redis to minimize server response time. Implemented Next.js middleware for better authentication with SSR, SSG for faster load time and security. Done Basic deployment of application on cloud platform AWS.',
+      'Collaborated on APIs and design patterns with UX. Kept error rate < 3% with Formik, Zod, and Joi. Used Redis for server-side caching. Implemented Next.js middleware for authentication, SSR/SSG for speed, and deployed on AWS.',
     tags: [],
   },
   {
@@ -35,7 +35,7 @@ const data = [
       to: 'Feb 22',
     },
     description:
-      'Performed quality assurance tests on various sites to ensure cross browser compatibility and mobile responsiveness. Developed web UI as per Figma. Created reusable component in React JS. Came up with solutions to improve application performance in browser.',
+      'Performed QA tests for cross-browser compatibility and mobile responsiveness. Developed web UI based on Figma designs. Created reusable React components. Proposed solutions to enhance browser performance.',
     tags: [],
   },
 ];
