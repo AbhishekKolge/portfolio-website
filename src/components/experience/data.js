@@ -9,7 +9,7 @@ const data = [
       to: 'present',
     },
     description:
-      'Develop and maintain client-side business logic for admin panel and user facing application. Work closely with product manager and UX designers. Created internal component library for better reusability.',
+      'Achieved 20% reduction in external requests for admin and user-facing applications through client-side caching and optimisation. Collaborated with product manager to reduce feature delivery time by 15%. Strengthened authentication with refresh token rotation and passport.js. Improved overall application performance by an impressive 25% through a dual strategy of client-side data caching and server-side rendering using Next.js. Created internal component library for better reusability with storybook. Implemented web sockets for realtime data streaming and chats.',
     tags: [],
   },
   {
@@ -22,7 +22,7 @@ const data = [
       to: 'Feb 23',
     },
     description:
-      'Collaborate with UX team to make developer friendly APIs. Implement and maintain client-side and server-side validation and error handling. Implemented microservices for scaling.',
+      'Collaborated with UX team for APIs and atomic design pattern. Maintained a post-implementation error rate below 3% through robust validation and error handling using Formik, Zod and Joi etc. Implemented server side caching with help of Redis to minimize server response time. Implemented Next.js middleware for better authentication with SSR, SSG for faster load time and security. Done Basic deployment of application on cloud platform AWS.',
     tags: [],
   },
   {
@@ -35,7 +35,7 @@ const data = [
       to: 'Feb 22',
     },
     description:
-      'Deliver high-quality, robust production code for a diverse array of projects for clients. Came up with solutions to improve application performance in browser.',
+      'Performed quality assurance tests on various sites to ensure cross browser compatibility and mobile responsiveness. Developed web UI as per Figma. Created reusable component in React JS. Came up with solutions to improve application performance in browser.',
     tags: [],
   },
 ];
