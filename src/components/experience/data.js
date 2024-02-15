@@ -9,7 +9,7 @@ const data = [
       to: 'present',
     },
     description:
-      'Achieved 20% reduction in external requests for admin and user-facing applications through client-side caching and optimisation. Collaborated with product manager to reduce feature delivery time by 15%. Strengthened authentication with refresh token rotation and passport.js. Improved overall application performance by an impressive 25% through a dual strategy of client-side data caching and server-side rendering using Next.js. Created internal component library for better reusability with storybook. Implemented web sockets for realtime data streaming and chats.',
+      'Achieved 20% reduction in external requests for admin and user-facing applications through client-side caching and optimisation. Strengthened authentication with refresh token rotation and passport.js. Improved overall application performance by an impressive 25% through a dual strategy of client-side data caching and server-side rendering using Next.js.',
     tags: [],
   },
   {
