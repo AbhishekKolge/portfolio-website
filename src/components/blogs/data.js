@@ -18,7 +18,7 @@ const data = [
     img: reduxToolkitImage,
   },
   {
-    id: 2,
+    id: 3,
     title: 'Node.js Error Handling',
     date: 'Apr 24',
     link: 'https://medium.com/@abhishekkolge96/node-js-error-handling-41dcd91e859e',
