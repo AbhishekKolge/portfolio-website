@@ -1,5 +1,6 @@
 import typeScriptImage from '@/assets/blogs/typescript.webp';
 import reduxToolkitImage from '@/assets/blogs/redux-toolkit.webp';
+import nodeJsImage from '@/assets/blogs/node-js.webp';
 
 const data = [
   {
@@ -15,6 +16,13 @@ const data = [
     date: 'Jun 23',
     link: 'https://medium.com/@abhishekkolge96/getting-started-with-rtk-query-in-react-js-next-js-9b84121d8f2',
     img: reduxToolkitImage,
+  },
+  {
+    id: 2,
+    title: 'Node.js Error Handling',
+    date: 'Apr 24',
+    link: 'https://medium.com/@abhishekkolge96/node-js-error-handling-41dcd91e859e',
+    img: nodeJsImage,
   },
 ];
 
